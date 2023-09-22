@@ -1,0 +1,17 @@
+@import "../../App/config.module.css";
+
+.menu {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto;
+}
+
+.menu__title {
+  font-family: var(--titleFont);
+  font-size: 3.5vh;
+  text-align: center;
+}
+
+.menu__buttonContainer {
+  margin: auto;
+}
